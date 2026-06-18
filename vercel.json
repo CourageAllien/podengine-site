@@ -1,4 +1,8 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/samples/:path*", "destination": "https://app.usepodpick.com/samples/:path*" },
+    { "source": "/_next/:path*", "destination": "https://app.usepodpick.com/_next/:path*" }
+  ]
 }
